@@ -4,7 +4,7 @@
 .left {
     float: left;
     width: 20%;
-    background: red;
+    background: white;
     height: 100%;
     overflow: scroll;
 }
@@ -18,7 +18,7 @@
 .right {
     float: left;
     width: 20%;
-    background: rgb(59, 184, 55);
+    background: white;
     height: 100%;
     overflow: scroll;
 }

@@ -8,6 +8,9 @@ import {
   Route,
   
 } from "react-router-dom";
+import LeftMenue from './SubComponents/LeftMenue';
+import RightMenue from './SubComponents/RightMenue';
+
 
 
 export default function PageLayout() {
@@ -15,13 +18,17 @@ export default function PageLayout() {
     <>
     <Router>
 <div className="Page">
-  <div className="left">hii</div>
+
+
+  <div className="left">
+    <LeftMenue/>
+  </div>
 
 
   <div className="center">
 
   <Switch>
-          {/* <Route path="/ScriptsCard">
+          <Route path="/ScriptsCard">
             <ScriptsCard writername="Ankit Kumar" /><hr/>
             <ScriptsCard writername="Nishant Mishra" /><hr/>
             <ScriptsCard writername="Hardik kumar" /><hr/>
@@ -32,7 +39,7 @@ export default function PageLayout() {
             <ScriptsCard writername="harshvardhan maske"/><hr/>
             <ScriptsCard writername="Hemant rajput"/><hr/>
             <ScriptsCard writername="Akhil sahukar"/><hr/>   
-          </Route> */}
+          </Route>
 
           <Route path="/FullScript">
              <FullScript writername="Akhil sahukar" />
@@ -47,7 +54,10 @@ export default function PageLayout() {
   </div>
 
 
-  <div className="right">hii</div>
+  <div className="right">
+    <RightMenue/>
+  </div>
+
 </div>
 
 </Router>

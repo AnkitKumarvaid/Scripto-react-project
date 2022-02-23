@@ -9,7 +9,7 @@ export default function FullScript(props) {
  <div class="container ">
             <div class="row">
                 <div class="col-2">
-                  <img src="/profile.jpg"></img>
+                  <img className="profilepic" src="/profile.jpg"></img>
                 </div>
                 <div class="col-10">
                    
